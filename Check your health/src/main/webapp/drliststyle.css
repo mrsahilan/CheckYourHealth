@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/* head section */
+.information {
+	margin-top: 2px;
+	text-align: center;
+}
+
+h1 {
+	color: black;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+p {
+	color: black;
+	font-size: 17px;
+	margin-bottom: -5px;
+}
+
+/* body section */
+.body {
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 100px 0;
+	text-align: center;
+}
+
+/* doctors image */
+img {
+	margin-top: 8px;
+}
+
+/* book appointment button */
+.button {
+	display: inline-block; /* Make it behave like a button */
+	width: 200px;
+	height: 30px;
+	background: linear-gradient(to right, #ff0000, blue);
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px; /* Vertically center the text */
+	border-radius: 3px;
+	text-decoration: none; /* Remove underline */
+	transition: border-radius 600ms linear, background 600ms linear;
+	/* Added background transition */
+	margin-bottom: 10px;
+}
+
+.button:hover {
+	background: linear-gradient(to left, #ff0000, blue);
+	border-radius: 15px;
+}

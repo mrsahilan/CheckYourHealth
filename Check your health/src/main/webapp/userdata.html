@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Details</title>
+<link rel="stylesheet" href="userdataStyle.css">
+</head>
+<body>
+	<div class="background">
+		<div class="headdata">
+			<h2>Make an Appointment</h2>
+			<h3>Appointment must be made 24 hours in advance.</h3>
+		</div>
+
+		<form action="InsertRecord" method="post">
+			<div class="maindata">
+				<label for="name">Name</label><br> <input type="text" id="name"
+					name="name" required autofocus><br> <label
+					for="phone_number">Phone Number</label><br> <input type="tel"
+					id="phonenumber" name="phone_number" maxlength="10" required><br>
+
+				<label for="appointment_date">Appointment Date</label><br> <input
+					type="date" id="date" name="appointment_date" required><br>
+
+				<label>Patient Type</label><br> <input type="radio" id="new"
+					name="patient_type" value="new" required> <label for="new">New
+					Patient</label> <input type="radio" id="old" name="patient_type"
+					value="old" required> <label for="old">Review
+					Patient</label><br> <input id="submit" type="submit" value="Submit">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

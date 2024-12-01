@@ -1,0 +1,48 @@
+/* background image */
+.background {
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('img/bgimg3.jpeg');
+}
+
+.headdata {
+	color: white;
+	font-size: 30px;
+	padding-top: 1%;
+	text-align: center;
+}
+
+.maindata {
+	padding-bottom: 12.5%;
+	padding-left: 38%;
+}
+
+label {
+	color: whitesmoke;
+	font-size: 30px;
+}
+
+input[type="text"], input[type="tel"], input[type="date"] {
+	border: none;
+	width: 350px;
+	height: 30px;
+	box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.5);
+	border-radius: 2px;
+}
+
+#submit {
+	font-weight: bold;
+	width: 70px;
+	height: 25px;
+	color: white;
+	background: rgb(254, 123, 15);
+	margin-top: 5px;
+	margin-left: 15%;
+}
+
+#submit:hover {
+	color: whitesmoke;
+	background: green;
+}

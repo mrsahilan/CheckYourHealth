@@ -1,0 +1,157 @@
+/* head section */
+#header {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#hc1 {
+	color: rgb(46, 106, 235);
+}
+
+#hc2 {
+	color: black;
+}
+
+#headimg {
+	width: 65px;
+	height: 65px;
+}
+
+/* main section */
+#flexbox {
+	display: flex;
+	gap: 5px;
+	justify-content: space-around;
+	margin-top: 20px;
+	font-size: 25px;
+}
+
+#flexbox>div>a {
+	color: white;
+	text-decoration: none;
+}
+
+#select-box {
+	width: 20px;
+	border: none;
+	cursor: pointer;
+	background-color: rgb(20, 163, 207);
+}
+
+.main-box {
+	padding: 10px 0;
+	color: white;
+	background: linear-gradient(to right, rgb(20, 163, 207),
+		rgb(46, 106, 235));
+}
+
+.main-box>div>a:hover {
+	font-weight: bolder;
+}
+
+/* body section */
+.main-body {
+	height: 100%;
+	background-image: url('img/bgimg.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main-body>.body>img {
+	width: 70px;
+	height: 70px;
+}
+
+#ch1, #ch2 {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+#ch1 {
+	color: black;
+}
+
+#ch2 {
+	color: rgb(46, 106, 235);
+}
+
+.body {
+	padding: 50px 0 40px;
+	text-align: center;
+}
+
+.body>p {
+	font-size: 20px;
+	font-style: italic;
+}
+
+#button {
+	width: 200px;
+	height: 40px;
+	background: rgb(243, 110, 27);
+	color: white;
+	font-size: 20px;
+	border: 0;
+	border-radius: 15px;
+	cursor: pointer;
+	margin: 10px 0;
+}
+
+#button>a {
+	color: white;
+	text-decoration: none;
+}
+
+.main-body>.body>#button:hover {
+	background: green;
+	font-size: 25px;
+}
+
+/* tell section */
+.footer {
+	display: flex;
+	gap: 1px;
+	justify-content: space-around;
+	border-radius: 10px;
+}
+
+#box1, #box3, #box2, #box4 {
+	padding: 5px 0 10px;
+	color: white;
+	text-align: center;
+	box-shadow: 5px 5px 5px 5px whitesmoke;
+}
+
+#box1, #box3 {
+	background: linear-gradient(to right, rgb(20, 163, 207),
+		rgb(46, 106, 235));
+}
+
+#box2, #box4 {
+	background: linear-gradient(to left, rgb(20, 163, 207),
+		rgb(46, 106, 235));
+}
+
+.footer>div>h4 {
+	font-weight: bold;
+	font-size: 30px;
+	margin: 0 0 10px;
+}
+
+.footer>div>h4:hover {
+	font-size: 32px;
+	color: red;
+	cursor: pointer;
+}
+
+.footer>div>img {
+	margin-top: 10px;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	display: inline-block;
+	padding: 15px 153.7px;
+}
